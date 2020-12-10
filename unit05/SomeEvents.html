@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html>
-<body>
-
-
-<h1>Click the button to display an alert box.</h1>
-
-<button onclick="myFunction()">The button was clicked</button>
+<html lang="en">
 
 <script>
-function myFunction(again) {
-  alert("The page has loaded");
-}
+    function myfunction(text) {
+        alert(text)
+    }
 </script>
+    <title>Some Events</title>
+    <meta charset="UTF-8">
+</head>
 
 
-
+<body onload="myfunction('The page has loaded')">
+    <button onclick="myfunction('The button was clicked')">Click Me</button>
 </body>
+
 </html>
+
+
